@@ -176,10 +176,10 @@ private extension TextFieldTableViewCell {
         stackView.addArrangedSubview(errorLabel)
         
         NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: UITableViewCell.defaultPending.top),
-            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: UITableViewCell.defaultPending.left),
-            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -UITableViewCell.defaultPending.bottom),
-            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -UITableViewCell.defaultPending.right)
+            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: UITableViewCell.defaultPadding.top),
+            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: UITableViewCell.defaultPadding.left),
+            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -UITableViewCell.defaultPadding.bottom),
+            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -UITableViewCell.defaultPadding.right)
         ])
     }
     

@@ -130,10 +130,10 @@ private extension ContentTableViewCell {
         vStackView.addArrangedSubview(contentLabel)
 
         NSLayoutConstraint.activate([
-            hStackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: UITableViewCell.defaultPending.top),
-            hStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: UITableViewCell.defaultPending.left),
-            hStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -UITableViewCell.defaultPending.right),
-            hStackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -UITableViewCell.defaultPending.bottom),
+            hStackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: UITableViewCell.defaultPadding.top),
+            hStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: UITableViewCell.defaultPadding.left),
+            hStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -UITableViewCell.defaultPadding.right),
+            hStackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -UITableViewCell.defaultPadding.bottom),
             
             indicatorImageView.leadingAnchor.constraint(equalTo: indicatorContainerView.leadingAnchor),
             indicatorImageView.trailingAnchor.constraint(equalTo: indicatorContainerView.trailingAnchor),

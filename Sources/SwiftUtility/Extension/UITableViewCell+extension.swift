@@ -24,7 +24,7 @@ public extension UITableViewCell {
 
 extension UITableViewCell {
     
-    static let defaultPending = UIEdgeInsets(top: 10, left: 16, bottom: 10, right: 16)
+    static let defaultPadding = UIEdgeInsets(top: 10, left: 16, bottom: 10, right: 16)
     static let defaultSpacing: CGFloat = 4
     static let boldTitleFont: UIFont = .systemFont(ofSize: 16, weight: .bold)
     static let titleFont: UIFont = .systemFont(ofSize: 16)

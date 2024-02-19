@@ -36,7 +36,7 @@ extension RegisterFormPresenter {
             Section(header: nil, rows: [
                 .textField(
                     .init(
-                        title: "Name",
+                        title: "Email",
                         text: interactor.data.account,
                         errorText: interactor.errorMessage.account,
                         onValidate: { [weak self] text in
